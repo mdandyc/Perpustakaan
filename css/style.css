@@ -1,0 +1,31 @@
+@font-face{
+font-family: "Open-Sans";
+src:url(../fonts/OpenSans-Bold.ttf);
+}
+#home{
+	font-family: Open-Sans;
+}
+.windwitch a img{
+	margin:0px 0px 0px 180px !important;
+}
+.description{
+	margin-top: 100px;
+}
+#services img{
+	box-shadow: 8px 8px 10px #aaa;
+}
+.zoom-effect img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.zoom-effect:hover img {
+     cursor: pointer;
+    -webkit-transform:scale(1.08); /* Safari and Chrome */
+    -moz-transform:scale(1.08); /* Firefox */
+    -ms-transform:scale(1.08); /* IE 9 */
+    -o-transform:scale(1.08); /* Opera */
+     transform:scale(1.08);
+}
