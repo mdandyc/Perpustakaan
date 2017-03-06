@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="shortcut icon" href="img/icon.png">
+       <link type="text/css" rel="stylesheet" href="css/materialize.min.css" >
+       <link rel="stylesheet" type="text/css" href="css/materialize/style2.css">
+       <link rel="stylesheet" type="text/css" href="css/style.min.css">
+       <link href="css/materialize/iconmaterialize.css" rel="stylesheet">
+      <title>Perpustakaan</title>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+<body>
+	
+<aside id="left-sidebar-nav">
+                <ul id="slide-out" class="side-nav fixed leftside-navigation">
+                <li class="user-details cyan darken-2">
+                <div class="row">
+                    <div class="col col s4 m4 l4">
+                        <img src="img/avatar.png" alt="" class="circle responsive-img valign profile-image">
+                    </div>
+                    <div class="col col s8 m8 l8">
+                        <ul id="profile-dropdown" class="dropdown-content">
+                                <li><a href="#"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
+                                </li>
+                            </ul>
+                            <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown">John Doe<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                        <p class="user-roal">User</p>
+                    </div>
+                </div>
+                </li>
+                <li class="bold"><a href="memberdashboard.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard">	</i> Dashboard</a>
+                </li>
+                <li class="bold active"><a href="#" class="waves-effect waves-cyan"><i class="mdi-av-queue"></i> List Buku</a>
+                </li><br>
+                <li class="li-hover"><div class="divider"></div></li>
+                <li><a href="index.html"><i class="mdi-hardware-keyboard-backspace"></i> Back To Home </a>
+            </ul>
+            </aside>
+            <!--DataTables example-->
+            <div id="table-datatables">
+              <div class="row">
+                <div class="col s12 m8 l9">
+                	<div class="bukupinjam">
+                		<h1>Buku Pinjaman</h1>
+                	</div>
+                  <table id="data-table-simple" class="responsive-table display striped" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Judul</th>
+                            <th>Pengarang</th>
+                            <th>Penerbit</th>
+                            <th>Tanggal Terbit</th>
+                            <th>Stock</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                 
+                    <tbody>
+                        <tr>
+                            <td>Caraval</td>
+                            <td>Tiger Nixon</td>
+                            <td>PT.Tek</td>
+                            <td>12 February 2017</td>
+                            <td>3</td>
+                            <td><a href="#"><i class="mdi-content-forward"> Pinjam</i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Caraval</td>
+                            <td>Tiger Nixon</td>
+                            <td>PT.Tek</td>
+                            <td>12 February 2017</td>
+                            <td>3</td>
+                            <td><a href="#"><i class="mdi-content-forward"> Pinjam</i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Caraval</td>
+                            <td>Tiger Nixon</td>
+                            <td>PT.Tek</td>
+                            <td>12 February 2017</td>
+                            <td>3</td>
+                            <td><a href="#"><i class="mdi-content-forward"> Pinjam</i></a></td>
+                        </tr>
+                         <tr>
+                            <td>Caraval</td>
+                            <td>Tiger Nixon</td>
+                            <td>PT.Tek</td>
+                            <td>12 February 2017</td>
+                            <td>3</td>
+                            <td><a href="#"><i class="mdi-content-forward"> Pinjam</i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Caraval</td>
+                            <td>Tiger Nixon</td>
+                            <td>PT.Tek</td>
+                            <td>12 February 2017</td>
+                            <td>3</td>
+                            <td><a href="#"><i class="mdi-content-forward"> Pinjam</i></a></td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+				  <ul class="pagination">
+				    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+				    <li class="active"><a href="#!">1</a></li>
+				    <li class="waves-effect"><a href="#!">2</a></li>
+				    <li class="waves-effect"><a href="#!">3</a></li>
+				    <li class="waves-effect"><a href="#!">4</a></li>
+				    <li class="waves-effect"><a href="#!">5</a></li>
+				    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+				  </ul>
+            </div> 
+
+      <!--Import jQuery before materialize.js-->
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize/materialize.min.js"></script>
+</body>
+</html>
+
+          
